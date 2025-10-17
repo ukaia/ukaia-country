@@ -77,7 +77,7 @@ const ContactCard = () => {
                 className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 <a 
-                  href="https://calendly.com" 
+                  href="https://outlook.office.com/book/UkaiaRogersAgencyCOUNTRYFinancial@countryfinancial.com/?ismsaljsauthenabled" 
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
