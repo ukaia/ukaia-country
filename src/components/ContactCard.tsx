@@ -61,9 +61,9 @@ const ContactCard = () => {
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 <a 
-                  href="https://www.countryfinancial.com/quote" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
+                  className="canopy-connect-embed"
+                  href="https://app.usecanopy.com/c/localagent" 
+                  target="_blank"
                 >
                   <FileText className="mr-2 h-5 w-5" />
                   Get a Quote
