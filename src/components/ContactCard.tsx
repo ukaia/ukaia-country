@@ -13,7 +13,7 @@ const ContactCard = () => {
             <img 
               src={cfLogo} 
               alt="Country Financial Logo" 
-              className="h-16 md:h-20 w-auto"
+              className="h-20 md:h-24 w-auto"
             />
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">
