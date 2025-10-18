@@ -33,14 +33,19 @@ const ContactCard = () => {
             {/* Action Buttons */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <Button
-                asChild
                 size="lg"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
+                onClick={() => {
+                  const choice = window.confirm("Click OK to Call, or Cancel to Text");
+                  if (choice) {
+                    window.location.href = "tel:971-241-6140";
+                  } else {
+                    window.location.href = "sms:971-241-6140";
+                  }
+                }}
               >
-                <a href="tel:971-241-6140">
-                  <Phone className="mr-2 h-5 w-5" />
-                  Call/Text Me
-                </a>
+                <Phone className="mr-2 h-5 w-5" />
+                Call/Text Me
               </Button>
               
               <Button
