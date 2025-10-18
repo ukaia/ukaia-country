@@ -49,7 +49,8 @@ const ThankYou = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                 >
-                  Schedule online
+                  <Calendar className="mr-2 h-5 w-5" />
+                  Schedule a Meeting
                 </a>
               </Button>
             </div>
