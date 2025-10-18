@@ -76,11 +76,7 @@ const ContactCard = () => {
                 variant="outline"
                 className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
               >
-                <a 
-                  href="https://outlook.office.com/book/UkaiaRogersAgencyCOUNTRYFinancial@countryfinancial.com/?ismsaljsauthenabled" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
+                <a href="/book">
                   <Calendar className="mr-2 h-5 w-5" />
                   Schedule Meeting
                 </a>
