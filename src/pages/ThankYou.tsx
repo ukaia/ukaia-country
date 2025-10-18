@@ -1,4 +1,4 @@
-import { CheckCircle, Calendar } from "lucide-react";
+import { CheckCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import cfLogo from "@/assets/cf-logo-white.png";
@@ -44,13 +44,8 @@ const ThankYou = () => {
                 size="lg"
                 className="w-full md:w-auto bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
               >
-                <a 
-                  href="https://outlook.office.com/book/UkaiaRogersAgencyCOUNTRYFinancial@countryfinancial.com/?ismsaljsauthenabled" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                >
-                  <Calendar className="mr-2 h-5 w-5" />
-                  Schedule a Meeting
+                <a href="/book">
+                  Schedule online
                 </a>
               </Button>
             </div>
