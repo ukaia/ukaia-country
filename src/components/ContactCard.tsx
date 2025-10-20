@@ -35,6 +35,21 @@ const ContactCard = () => {
               <Button
                 asChild
                 size="lg"
+                className="w-full md:col-span-2 bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
+              >
+                <a 
+                  className="canopy-connect-embed"
+                  href="https://app.usecanopy.com/c/localagent" 
+                  target="_blank"
+                >
+                  <FileText className="mr-2 h-5 w-5" />
+                  Get a Quote
+                </a>
+              </Button>
+              
+              <Button
+                asChild
+                size="lg"
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 <a href="tel:9712430235">
@@ -52,21 +67,6 @@ const ContactCard = () => {
                 <a href="mailto:ukaia.rogers@countryfinancial.com">
                   <Mail className="mr-2 h-5 w-5" />
                   Email Me
-                </a>
-              </Button>
-              
-              <Button
-                asChild
-                size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
-              >
-                <a 
-                  className="canopy-connect-embed"
-                  href="https://app.usecanopy.com/c/localagent" 
-                  target="_blank"
-                >
-                  <FileText className="mr-2 h-5 w-5" />
-                  Get a Quote
                 </a>
               </Button>
               
