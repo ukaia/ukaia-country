@@ -136,6 +136,19 @@ const ContactCard = () => {
               </div>
             </div>
           </div>
+          
+          {/* Disclaimer */}
+          <div className="pt-6 mt-6 border-t border-border">
+            <p className="text-xs text-muted-foreground text-center leading-relaxed">
+              Ukaia Rogers Insurance Agency LLC is an independent insurance agency. 
+              COUNTRY Financial® is a family of affiliated companies (collectively, COUNTRY) located in Bloomington, IL. 
+              Insurance products and services are offered by COUNTRY Mutual Insurance Company®, COUNTRY Preferred Insurance Company®, 
+              COUNTRY Casualty Insurance Company® and COUNTRY Financial® Property & Casualty Insurance Company. 
+              Not all products are available in all states. Life insurance and annuities are offered through COUNTRY Investors Life Assurance Company®, 
+              Bloomington, IL. Securities and investment advisory services are offered through COUNTRY Capital Management Company®, 
+              a registered investment adviser. COUNTRY Capital Management Company and its representatives do not provide tax or legal advice.
+            </p>
+          </div>
         </div>
       </Card>
     </div>
