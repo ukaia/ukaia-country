@@ -1,4 +1,4 @@
-import { Phone, Mail, Calendar, FileText } from "lucide-react";
+import { Phone, Mail, Calendar, FileText, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import cfLogo from "@/assets/cf-logo-white.png";
@@ -79,6 +79,17 @@ const ContactCard = () => {
                 <a href="/book">
                   <Calendar className="mr-2 h-5 w-5" />
                   Schedule Meeting
+                </a>
+              </Button>
+              
+              <Button
+                asChild
+                size="lg"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
+              >
+                <a href="https://maps.app.goo.gl/YbK1b77b5NcD9DCh9?g_st=ipc" target="_blank" rel="noopener noreferrer">
+                  <Star className="mr-2 h-5 w-5" />
+                  Leave a Review
                 </a>
               </Button>
             </div>
