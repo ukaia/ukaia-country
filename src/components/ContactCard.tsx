@@ -1,7 +1,9 @@
 import { Phone, Mail, Calendar, FileText, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import cfLogo from "@/assets/cf-logo-white.png";
+import ukaiaPhoto from "@/assets/ukaia-photo.png";
 
 const ContactCard = () => {
   return (
@@ -15,6 +17,12 @@ const ContactCard = () => {
               alt="Country Financial Logo" 
               className="h-20 md:h-24 w-auto"
             />
+          </div>
+          <div className="flex justify-center mb-6">
+            <Avatar className="h-32 w-32 border-4 border-primary-foreground/20">
+              <AvatarImage src={ukaiaPhoto} alt="Ukaia Rogers" />
+              <AvatarFallback className="text-2xl">UR</AvatarFallback>
+            </Avatar>
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">
             Ukaia Rogers
