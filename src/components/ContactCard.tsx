@@ -19,10 +19,11 @@ const ContactCard = () => {
             />
           </div>
           <div className="flex justify-center mb-6">
-            <Avatar className="h-32 w-32 border-4 border-primary-foreground/20">
-              <AvatarImage src={ukaiaPhoto} alt="Ukaia Rogers" />
-              <AvatarFallback className="text-2xl">UR</AvatarFallback>
-            </Avatar>
+            <img 
+              src={ukaiaPhoto} 
+              alt="Ukaia Rogers" 
+              className="h-40 w-auto rounded-lg border-4 border-primary-foreground/20 shadow-lg"
+            />
           </div>
           <h1 className="text-3xl md:text-4xl font-bold text-primary-foreground mb-2">
             Ukaia Rogers
