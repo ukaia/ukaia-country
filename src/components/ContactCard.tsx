@@ -62,7 +62,7 @@ const ContactCard = () => {
                 variant="outline"
                 className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
               >
-                <a href="tel:9712430235">
+                <a href="tel:9712416140">
                   <Phone className="mr-2 h-5 w-5" />
                   Call/Text Me
                 </a>
@@ -110,10 +110,10 @@ const ContactCard = () => {
                 <div>
                   <p className="text-sm font-semibold text-foreground">Cell/Text</p>
                   <a 
-                    href="tel:9712430235" 
+                    href="tel:9712416140" 
                     className="text-base hover:text-primary transition-colors"
                   >
-                    (971) 243-0235
+                    (971) 241-6140
                   </a>
                 </div>
               </div>
