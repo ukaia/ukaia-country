@@ -7,21 +7,26 @@ import ukaiaPhoto from "@/assets/ukaia-photo.png";
 
 const ContactCard = () => {
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
+    <main className="min-h-screen bg-background flex items-center justify-center p-4">
       <Card className="w-full max-w-2xl overflow-hidden shadow-2xl border-0">
         {/* Header with Logo */}
         <div className="bg-primary p-8 md:p-12 text-center">
           <div className="flex justify-center mb-6">
-            <img 
-              src={cfLogo} 
-              alt="Country Financial Logo" 
+            <img
+              src={cfLogo}
+              alt="Country Financial Logo"
+              width="240"
+              height="96"
               className="h-20 md:h-24 w-auto"
             />
           </div>
           <div className="flex justify-center mb-6">
-            <img 
-              src={ukaiaPhoto} 
-              alt="Ukaia Rogers" 
+            <img
+              src={ukaiaPhoto}
+              alt="Ukaia Rogers"
+              width="160"
+              height="160"
+              fetchPriority="high"
               className="h-40 w-auto rounded-lg border-4 border-primary-foreground/20 shadow-lg"
             />
           </div>
