@@ -165,7 +165,7 @@ const ContactCard = () => {
           </div>
         </div>
       </Card>
-    </div>
+    </main>
   );
 };
 
