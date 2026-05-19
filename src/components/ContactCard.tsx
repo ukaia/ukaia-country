@@ -34,7 +34,7 @@ const ContactCard = () => {
             Ukaia Rogers
           </h1>
           <p className="text-lg md:text-xl text-primary-foreground/90 font-semibold mb-4">
-            COUNTRY Financial® Representative
+            COUNTRY Financial® &nbsp;Financial Advisor
           </p>
           <p className="text-sm md:text-base text-primary-foreground/80">
             Licensed in Oregon, Washington, Idaho, and Alaska
