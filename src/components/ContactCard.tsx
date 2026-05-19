@@ -162,6 +162,27 @@ const ContactCard = () => {
               Bloomington, IL. Securities and investment advisory services are offered through COUNTRY Capital Management Company®, 
               a registered investment adviser. COUNTRY Capital Management Company and its representatives do not provide tax or legal advice.
             </p>
+            <p className="text-xs text-muted-foreground text-center leading-relaxed mt-4">
+              Individuals with the title "Financial Advisor" are Financial Advisors of COUNTRY Trust Bank®.
+              They are also Registered Representatives of COUNTRY® Capital Management Company and Insurance Agents
+              of COUNTRY Mutual Insurance Company® and COUNTRY Life Insurance Company® and their subsidiaries.
+            </p>
+            <p className="text-xs text-muted-foreground text-center leading-relaxed mt-4">
+              Investment management, retirement, trust and planning services provided by COUNTRY Trust Bank®
+              <br />
+              1701 Towanda Avenue | PO Box 2020 | Bloomington, IL 61702-2020
+              <br />
+              tel (866) 268-6879
+            </p>
+            <p className="text-xs text-muted-foreground text-center leading-relaxed mt-4">
+              Registered Broker-Dealer offering securities products and services.
+              <br />
+              COUNTRY® Capital Management Company
+              <br />
+              1701 Towanda Avenue | PO Box 2222 Bloomington, IL 61702-2222
+              <br />
+              tel (866) 268-6879 | Member FINRA
+            </p>
           </div>
         </div>
       </Card>
