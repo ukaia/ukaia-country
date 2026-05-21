@@ -76,8 +76,7 @@ const ContactCard = () => {
               <Button
                 asChild
                 size="lg"
-                variant="outline"
-                className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 <a href="/book">
                   <Calendar className="mr-2 h-5 w-5" />
@@ -88,7 +87,8 @@ const ContactCard = () => {
               <Button
                 asChild
                 size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
+                variant="outline"
+                className="w-full border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 hover:scale-105"
               >
                 <a href="mailto:ukaia.rogers@countryfinancial.com">
                   <Mail className="mr-2 h-5 w-5" />
