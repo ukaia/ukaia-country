@@ -72,18 +72,7 @@ const ContactCard = () => {
                   Call/Text Me
                 </a>
               </Button>
-              
-              <Button
-                asChild
-                size="lg"
-                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
-              >
-                <a href="mailto:ukaia.rogers@countryfinancial.com">
-                  <Mail className="mr-2 h-5 w-5" />
-                  Email Me
-                </a>
-              </Button>
-              
+
               <Button
                 asChild
                 size="lg"
@@ -95,7 +84,18 @@ const ContactCard = () => {
                   Schedule Meeting
                 </a>
               </Button>
-              
+
+              <Button
+                asChild
+                size="lg"
+                className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300 hover:scale-105"
+              >
+                <a href="mailto:ukaia.rogers@countryfinancial.com">
+                  <Mail className="mr-2 h-5 w-5" />
+                  Email Me
+                </a>
+              </Button>
+
               <Button
                 asChild
                 size="lg"
