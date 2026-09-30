@@ -9,15 +9,15 @@ const Privacy = () => {
         <title>Privacy Policy - Ukaia Rogers - COUNTRY Financial®</title>
         <meta
           name="description"
-          content="Privacy policy for ukaia.agency. How Ukaia Rogers Agency handles Google Ads lead form details, site analytics, and requests to access or delete contact information."
+          content="Privacy policy for www.ukaia.agency. How Ukaia Rogers Agency handles Google Ads lead form details, site analytics, and requests to access or delete contact information."
         />
-        <link rel="canonical" href="https://ukaia.agency/privacy" />
+        <link rel="canonical" href="https://www.ukaia.agency/privacy" />
         <meta property="og:title" content="Privacy Policy - Ukaia Rogers" />
         <meta
           property="og:description"
           content="How Ukaia Rogers Agency handles information submitted through Google Ads lead forms and this website."
         />
-        <meta property="og:url" content="https://ukaia.agency/privacy" />
+        <meta property="og:url" content="https://www.ukaia.agency/privacy" />
         <meta name="twitter:title" content="Privacy Policy - Ukaia Rogers" />
         <meta
           name="twitter:description"
@@ -45,7 +45,7 @@ const Privacy = () => {
           <div className="p-8 md:p-12 bg-card space-y-8 text-foreground">
             <p className="text-sm text-muted-foreground">
               Effective September 30, 2026. This notice applies to{" "}
-              <span className="whitespace-nowrap">ukaia.agency</span>.
+              <span className="whitespace-nowrap">www.ukaia.agency</span>.
             </p>
 
             <section className="space-y-3">
